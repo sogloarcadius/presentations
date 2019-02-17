@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "bower-art-resolver": "^2.0.9",
     "coffeelint": "^1.16.0",
     "grunt": "^1.0.3",
     "grunt-coffeelint": "0.0.16",
