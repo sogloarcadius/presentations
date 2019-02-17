@@ -1,8 +1,8 @@
 {
   "generator-reveal": {
-    "presentationTitle": "Template",
+    "presentationTitle": "automation",
     "packageVersion": "1.0.0",
-    "revealTheme": "solarized",
+    "revealTheme": "custom",
     "useSass": false,
     "deployToGithubPages": false
   }
