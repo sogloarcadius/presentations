@@ -27,7 +27,7 @@ grunt serve
 
 ## Export as PDF
 
-The server must be up and running then in a **chrome web browser** go to [https://sogloarcadius.github.io/presentations/<presentation_name>/?print-pdf](https://sogloarcadius.github.io/presentations/<presentation_name>/?print-pdf) and print (Ctrl + P) the web page.
+The server must be up and running then in a **chrome web browser** go to [https://sogloarcadius.github.io/presentations/python/?print-pdf](https://sogloarcadius.github.io/presentations/python/?print-pdf) and print (Ctrl + P) the web page.
 
 
 
