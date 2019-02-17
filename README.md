@@ -7,7 +7,6 @@
 ## Read locally
 
 ```sh
-
 # install grunt and make it available globally
 npm install -g grunt
 
@@ -22,7 +21,6 @@ bower install
 
 # Open the presentation
 grunt serve
-
 ```
 
 ## Export as PDF
