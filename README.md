@@ -6,10 +6,9 @@
 
 ## Read locally
 
-### Install tools and dependencies
-
 ```sh
-#install grunt and make it available globally
+
+# install grunt and make it available globally
 npm install -g grunt
 
 # install bower
@@ -20,17 +19,15 @@ npm install
 
 # install reveal.js using bower (check .bowerrc for registry configuration)
 bower install
-```
 
-### Open the presentation
-
-```sh
+# Open the presentation
 grunt serve
+
 ```
 
-### Export as PDF
+## Export as PDF
 
-The server must be up and running then in a **chrome web browser** go to [http://localhost:9000/?print-pdf](http://localhost:9000/?print-pdf) and print (Ctrl + P) the web page.
+The server must be up and running then in a **chrome web browser** go to [https://sogloarcadius.github.io/presentations/<presentation_name>/?print-pdf](https://sogloarcadius.github.io/presentations/<presentation_name>/?print-pdf) and print (Ctrl + P) the web page.
 
 
 
