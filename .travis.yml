@@ -3,22 +3,38 @@ language: node_js
 node_js:
   - "lts/*"
 before_install:
-    - mkdir -p public/template
-    - mkdir -p public/orange
     - mkdir -p public/automation
     - mkdir -p public/ansible
     - mkdir -p public/python
     - mv index.html public/
 install: true
 script:
-    - cd template
+    - cd automation
     - npm install --global grunt 
     - npm install --global bower
     - npm install
     - bower install
     - grunt dist
     - cd ..
-    - mv template/dist/* public/template
+    - mv automation/dist/* public/automation
+
+    - cd ansible
+    - npm install --global grunt 
+    - npm install --global bower
+    - npm install
+    - bower install
+    - grunt dist
+    - cd ..
+    - mv ansible/dist/* public/ansible
+
+    - cd python
+    - npm install --global grunt 
+    - npm install --global bower
+    - npm install
+    - bower install
+    - grunt dist
+    - cd ..
+    - mv python/dist/* public/python
 
 deploy:
   provider: pages
