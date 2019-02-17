@@ -1,2 +1,0 @@
-
-![](resources/variable-box.png)

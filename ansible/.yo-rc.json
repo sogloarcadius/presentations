@@ -1,9 +1,0 @@
-{
-  "generator-reveal": {
-    "presentationTitle": "ansible",
-    "packageVersion": "1.0.0",
-    "revealTheme": "solarized",
-    "useSass": false,
-    "deployToGithubPages": false
-  }
-}

@@ -1,2 +1,0 @@
-
-##### [QUIZZ](https://kahoot.it/)
