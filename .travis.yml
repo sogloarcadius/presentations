@@ -1,0 +1,32 @@
+dist: trusty
+language: node_js
+node_js:
+  - "lts/*"
+before_install:
+    # create folders
+    - mkdir -p public/automation
+    - mkdir -p public/ansible
+    - mkdir -p public/template
+    - mkdir -p public/python
+    - mv index.html public/
+install: true
+script:
+    - cd template
+    - npm install --global grunt 
+    - npm install -g bower-art-resolver
+    - npm install --global bower
+    - npm install
+    - bower install --allow-root
+    - grunt dist
+    - cd ..
+    - mkdir template_dist
+    - mv template/dist/* template_dist
+    - mv template_dist/* public/template
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
