@@ -18,7 +18,7 @@
                 <div id="slides"  class="my-3 p-3 bg-white rounded shadow-sm">
                     <h6 class="border-bottom border-gray pb-2 mb-0">Presentations</h6>
                     <div class="media text-muted pt-3"  v-for="presentation in presentations">
-                        <a v-bind:href=" base_url + '/' + presentation.id" class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" target= "_blank"><strong class="d-block text-gray-dark">{{ presentation.id }}</strong></a>
+                        <a v-bind:href=" base_url + '/' + presentation.id + '/' " class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" target= "_blank"><strong class="d-block text-gray-dark">{{ presentation.id }}</strong></a>
                         {{ presentation.description }}
                     </div>
                     <br/>
@@ -33,7 +33,7 @@
                 el: '#app',
                 data: {
                     presentations: [
-                    { id: 'automation', description: 'Acculturation, Comprendre l\'automatisation des réseaux et les outils associés'},
+                    { id: 'automation', description: 'Acculturation'},
                     { id: 'ansible', description: 'Formation Ansible' },
                     { id: 'python', description: 'Formation Python' }
                     ],
