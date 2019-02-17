@@ -9,15 +9,7 @@ before_install:
     - mv index.html public/
 install: true
 script:
-    - cd automation
-    - npm install --global grunt 
-    - npm install --global bower
-    - npm install
-    - bower install
-    - grunt dist
-    - cd ..
-    - mv automation/dist/* public/automation
-
+    
     - cd ansible
     - npm install --global grunt 
     - npm install --global bower
@@ -35,6 +27,16 @@ script:
     - grunt dist
     - cd ..
     - mv python/dist/* public/python
+
+    - cd automation
+    - npm install --global grunt 
+    - npm install --global bower
+    - npm install
+    - bower install
+    - grunt dist
+    - cd ..
+    - mv automation/dist/* public/automation
+
 
 deploy:
   provider: pages
