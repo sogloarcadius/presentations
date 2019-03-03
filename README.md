@@ -6,7 +6,7 @@
 
 ## Export as PDF
 
-The server must be up and running then in a **chrome web browser** go to [https://sogloarcadius.github.io/presentations/python/?print-pdf](https://sogloarcadius.github.io/presentations/python/?print-pdf) and print (Ctrl + P) the web page.
+In a **chrome web browser** go to [https://sogloarcadius.github.io/presentations/python/?print-pdf](https://sogloarcadius.github.io/presentations/python/?print-pdf) and print (Ctrl + P) the web page.
 
 
 ## Read locally
