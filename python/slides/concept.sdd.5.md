@@ -7,7 +7,7 @@ print(dico['mouse']) # afficher un élément spécifique
 
 # afficher tous les éléments
 for key,value in dico.items():
-    print("%s : %s" %(key : value))
+    print("%s : %s" %(key, value))
 ```
 
 * Ajouter un élément au dico
