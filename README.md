@@ -30,7 +30,7 @@ grunt serve
 
 ```
 
-## QUIZZ
+## Quizz
 
 [https://kahoot.it/](https://kahoot.it/)
 
