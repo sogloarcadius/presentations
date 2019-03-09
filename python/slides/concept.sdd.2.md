@@ -1,5 +1,7 @@
 ##### Liste - Tableau - Array
 
+[Les méthodes sur les listes](https://docs.python.org/3.7/tutorial/datastructures.html)
+
 * Déclaration liste
 
 ```python

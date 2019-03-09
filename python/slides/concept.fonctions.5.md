@@ -3,16 +3,15 @@
 ***global***
 
 ```py
->>> def plus_un():
-        global a
-        a = a+1
-        print(a)
+def plus_un():
+    global a
+    a = a+1
+    print(a)
 
->>> a = 15
->>> plus_un()
+a = 15
+plus_un()
 16
 
->>> plus_un()
+plus_un()
 17
->>>
 ```

@@ -1,5 +1,7 @@
 ##### Les dictionnaires
 
+[Les méthodes sur les dictionnaires](https://www.w3schools.com/python/python_ref_dictionary.asp)
+
 * Déclaration d'un dictionnaire
 
 ```python

@@ -1,5 +1,8 @@
 ##### Les tuples
-* Les tuples sont non immutable (non modifiiable)
+
+[Les méthodes sur les tuples](https://www.w3schools.com/python/python_ref_tuple.asp)
+
+* Les tuples sont immutables (non modifiable)
 * Les fonctions append, del, et remove ne s'appliquent pas aux tuples
 
 * Déclaration tuple
