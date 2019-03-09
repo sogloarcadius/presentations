@@ -30,11 +30,10 @@ grunt serve
 
 ```
 
+## QUIZZ
 
+[https://kahoot.it/](https://kahoot.it/)
 
+## Survey
 
-
-
-
-
-
+[https://doodle.com](https://doodle.com)
