@@ -1,13 +1,13 @@
 #####  Vérification Installation Python
 
-* version
+* vérifier la version
 
 ```sh
 C:\> python --version
 Python 3.7.1
 ```
 
-* console python
+* ouvrir une console python
 
 ```sh
 C:\> python

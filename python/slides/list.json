@@ -36,6 +36,8 @@
     "concept.sdd.3.md",
     "concept.sdd.4.md",
     "concept.sdd.5.md",
+    "concept.sdd.6.md",
+    "concept.sdd.7.md",
     "concept.fonctions.md",
     "concept.fonctions.1.md",
     "concept.fonctions.2.md",
@@ -58,5 +60,12 @@
     "concept.poo.11.md",
     "concept.poo.12.md",
     "quizz.md",
+    "labs.md",
+    "labs.variables.md",
+    "labs.operateurs.md",
+    "labs.operateurs.1.md",
+    "labs.fonctions.md",
+    "labs.flux.md",
+    "labs.flux.1.md",
     "end.md"
 ]
