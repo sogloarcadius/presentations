@@ -1,5 +1,5 @@
 
-##### Fonctions
+##### Mise en Pratique Fonctions
 
 *Ecrire une fonction qui* :
 
