@@ -28,15 +28,6 @@ script:
     - cd ..
     - mv python/dist/* public/python
 
-    - cd automation
-    - npm install --global grunt 
-    - npm install --global bower
-    - npm install
-    - bower install
-    - grunt dist
-    - cd ..
-    - mv automation/dist/* public/automation
-
 
 deploy:
   provider: pages

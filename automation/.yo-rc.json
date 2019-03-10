@@ -1,9 +1,0 @@
-{
-  "generator-reveal": {
-    "presentationTitle": "automation",
-    "packageVersion": "1.0.0",
-    "revealTheme": "custom",
-    "useSass": false,
-    "deployToGithubPages": false
-  }
-}
