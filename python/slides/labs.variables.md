@@ -1,4 +1,4 @@
-##### Variables 
+##### Mise en Pratique Variables 
 
 *Créer les variables suivantes et les afficher à la console*
 

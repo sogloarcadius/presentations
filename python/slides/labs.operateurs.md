@@ -1,5 +1,5 @@
 
-##### Opérateurs
+##### Mise en Pratique Opérateurs
 
 *Faite la division de 5.75 par 2*
 

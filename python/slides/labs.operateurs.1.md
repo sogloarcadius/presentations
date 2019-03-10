@@ -1,5 +1,5 @@
 
-##### Opérateurs
+##### Mise en Pratique Opérateurs
 
 *Effectuer les tests suivants*
 
