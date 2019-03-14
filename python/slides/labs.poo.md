@@ -1,13 +1,15 @@
 
 ##### Mise en Pratique POO et utilisation librairie requests
 
-*Introduction API (API REST, Postman)*
+*Prérequis*
 
-*Introduction de la librairie requests (Installation et documentation)*
+- Introduction API (API REST, Postman)
 
-*Créer la classe ApiClient qui propose les méthodes suivantes :*
+- Introduction de la librairie requests
 
-- get_routers()
-- create_router(router_payload)
-- create_router_from_csv()
-- delete_routers()
+*Créer la classe **ApiClient** qui propose les méthodes suivantes :*
+
+- *get_routers()*
+- *create_router(router_payload)*
+- *create_router_from_csv()*
+- *delete_routers()*
