@@ -7,6 +7,7 @@ before_install:
     - mkdir -p public/ansible
     - mkdir -p public/python
     - mv index.html public/
+    - mv index.css public/
 install: true
 script:
     
