@@ -8,6 +8,7 @@ before_install:
     - mkdir -p public/python
     - mv index.html public/
     - mv index.css public/
+    - mv favicon.png public/
 install: true
 script:
     
