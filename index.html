@@ -62,17 +62,18 @@
                     this.description = description;
 				}
 			};
-
-            var app = new Vue({
-                el: '#app',
-                data: {
-                    search: '',
-                    base_url: 'https://sogloarcadius.github.io/presentations/',
-                    presentations: [
-                        { id: 'ansible', title: 'Ansible Training', description: 'Ansible Training in French' },
-                        { id: 'python',  title: 'Python Training',  description: 'Python Training in French'  },
-                    ],
-                },
+	    const { createApp } = Vue
+            const app = createApp ({
+                data() {
+			return {
+			    search: '',
+			    base_url: 'https://sogloarcadius.github.io/presentations/',
+			    presentations: [
+				{ id: 'ansible', title: 'Ansible Training', description: 'Ansible Training in French' },
+				{ id: 'python',  title: 'Python Training',  description: 'Python Training in French'  },
+			    ],
+			}
+		},
 
                 computed: {				
 
@@ -97,7 +98,8 @@
                     }
                 }
 
-            })
+            });
+	    app.mount("#app");
         </script>
 
     </body>
